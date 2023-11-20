@@ -1,2 +1,5 @@
-# pia-progra
-el api seleccionado es de maquillaje
+# importacion de modulos
+import requests
+import json
+import matplotlib.pyplot as plt
+from collections import Counter
