@@ -1,0 +1,9 @@
+# Función para hacer una solicitud a la API
+
+def consultar_api(api_url):
+    response = requests.get(api_url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print("Error al obtener datos de la API")
+        return None
